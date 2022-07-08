@@ -1,0 +1,9 @@
+rt-utils
+nibabel
+git+https://github.com/batchfy/vlkit.git@main#egg=vlkit
+pydicom
+Pillow
+numpy
+tqdm
+einops
+NSKeyedUnArchiver==1.5
