@@ -5,3 +5,5 @@ pydicom
 Pillow
 numpy
 tqdm
+einops
+NSKeyedUnArchiver==1.5
