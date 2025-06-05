@@ -116,7 +116,7 @@ def parse_osirix_sr(osirix_sr: str):
         n = len(d["points"])
 
         if n == 0:
-            warn(f"Empty points for ROI {d["name"]} in {osirix_sr}.")
+            warn(f"Empty points for ROI {d['name']} in {osirix_sr}.")
             continue
 
         coords = np.array(
